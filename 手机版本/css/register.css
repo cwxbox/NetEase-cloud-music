@@ -1,0 +1,99 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+
+/*****手机端*****/	
+	/*top*/
+	.top img{width:100%;display: block;}
+	
+	/*登录条*/
+	.loginitem{overflow: hidden;background:#d43b33 ;}
+	.loginitem a{text-decoration: none;float:left;margin-left: 15px;margin-top: 15px;}
+	.loginitem a i{font-size: 20px;color:#FFFFFF;}
+	.loginitem p{color:#FFFFFF;font-size: 18px;font-family: "微软雅黑";float:right;margin-right: 38%;line-height: 50px;}
+	
+	/*information*/
+	.information{margin-top:35px;}
+	.information p{height:50px;border:1px solid #A1A1A1;width:95%;margin:0 auto;border-radius: 5px;}
+	.information p input{outline:none;border:none;line-height: 30px;width:60%;float:left;font-size: 16px;margin:10px 0 0 15px;font-family: "微软雅黑";}
+	.information p i{font-size: 26px;float:left;margin:10px 0 0 10px;color:#656565;}
+	
+	.information p a{text-decoration: none;font-size: 16px;display: block;line-height: 50px;text-align: center;background: #d43b33 ;font-family: "微软雅黑";color:#ebe6e6;border-radius: 5px;}
+	.information p:nth-of-type(3){margin-top:30px;}
+	
+	/*loginfunc*/
+
+	.loginfunc fieldset{ border:1px solid #CBCBCB;border-bottom:0;border-left:0;border-right:0; padding-left:27%; width:80%;margin:0 auto;margin-top: 245px;}
+	.loginfunc fieldset legend{font-size: 16px;font-family: "微软雅黑";color:#acacac;}
+	.loginfunc .box05{width:50px;}
+	.loginfunc .box05 a{text-decoration: none;border:1px solid #ACACAC;display: block;height:45px;width:45px;border-radius: 50px;margin-left: 3px;}
+	.loginfunc .box05 a i{font-size: 32px;color:#656565;display: block;margin:4px 0;text-align: center;}
+	.loginfunc .box05 p{font-size: 12px;font-family: "微软雅黑";text-align: center;margin-top: 10px;color: #a1a1a1;}
+	.loginfunc .b_box05{display: flex;flex-direction: row;justify-content: space-around;margin: 20px 0 20px 0;}
+	
+
+
+
+
+/*****iPad*****/
+@media only screen and (min-width: 481px) {		
+	/*top*/
+	.top img{width:100%;display: block;}
+	
+	/*登录条*/
+	.loginitem{overflow: hidden;background:#d43b33 ;}
+	.loginitem a{text-decoration: none;float:left;margin-left: 20px;margin-top: 25px;}
+	.loginitem a i{font-size: 40px;color:#FFFFFF;}
+	.loginitem p{color:#FFFFFF;font-size: 32px;font-family: "微软雅黑";float:right;margin-right: 40%;line-height: 80px;}
+	
+	/*information*/
+	.information{margin-top:60px;}
+	.information p{height:85px;border:1px solid #A1A1A1;width:95%;margin:0 auto;border-radius: 8px;}
+	.information p input{outline:none;border:none;line-height: 50px;width:60%;float:left;font-size: 30px;margin:15px 0 0 25px;font-family: "微软雅黑";}
+	.information p i{font-size: 50px;float:left;margin:15px 0 0 20px;color:#656565;}
+	
+	.information p a{text-decoration: none;font-size: 30px;display: block;line-height: 85px;text-align: center;background: #d43b33 ;font-family: "微软雅黑";color:#ebe6e6;border-radius: 8px;}
+	.information p:nth-of-type(3){margin-top:60px;}
+	
+	/*loginfunc*/
+
+	.loginfunc fieldset{ border:1px solid #CBCBCB;border-bottom:0;border-left:0;border-right:0; padding-left:30%; width:80%;margin:0 auto;margin-top: 280px;}
+	.loginfunc fieldset legend{font-size: 25px;font-family: "微软雅黑";color:#acacac;}
+	.loginfunc .box05{width:85px;}
+	.loginfunc .box05 a{text-decoration: none;border:1px solid #ACACAC;display: block;height:85px;width:85px;border-radius: 85px;}
+	.loginfunc .box05 a i{font-size: 60px;color:#656565;display: block;margin:7px 0;text-align: center;}
+	.loginfunc .box05 p{font-size: 20px;font-family: "微软雅黑";text-align: center;margin-top: 10px;color: #a1a1a1;}
+	.loginfunc .b_box05{display: flex;flex-direction: row;justify-content: space-around;margin: 50px 0 40px 0;}
+	
+	}
+	
+
+/*****PC端*****/
+@media only screen and (min-width: 769px) {		
+	/*top*/
+	.top img{width:100%;display: block;}
+	
+	/*登录条*/
+	.loginitem{overflow: hidden;background:#d43b33 ;}
+	.loginitem a{text-decoration: none;float:left;margin-left: 30px;margin-top: 20px;}
+	.loginitem a i{font-size: 60px;color:#FFFFFF;}
+	.loginitem p{color:#FFFFFF;font-size: 45px;font-family: "微软雅黑";float:right;margin-right: 42%;line-height: 100px;}
+	
+	/*information*/
+	.information{margin-top:70px;}
+	.information p{height:100px;border:1px solid #A1A1A1;width:95%;margin:0 auto;border-radius: 8px;}
+	.information p input{outline:none;border:none;line-height: 50px;width:50%;float:left;font-size: 40px;margin:20px 0 0 25px;font-family: "微软雅黑";}
+	.information p i{font-size: 60px;float:left;margin:15px 0 0 20px;color:#656565;}
+	
+	.information p a{text-decoration: none;font-size: 40px;display: block;line-height: 100px;text-align: center;background: #d43b33 ;font-family: "微软雅黑";color:#ebe6e6;border-radius: 8px;}
+	.information p:nth-of-type(3){margin-top:70px;}
+	
+	/*loginfunc*/
+
+	.loginfunc fieldset{ border:1px solid #CBCBCB;border-bottom:0;border-left:0;border-right:0; padding-left:33%; width:80%;margin:0 auto;margin-top: 400px;}
+	.loginfunc fieldset legend{font-size: 30px;font-family: "微软雅黑";color:#acacac;}
+	.loginfunc .box05{width:110px;}
+	.loginfunc .box05 a{text-decoration: none;border:1px solid #ACACAC;display: block;height:110px;width:110px;border-radius: 110px;}
+	.loginfunc .box05 a i{font-size: 80px;color:#656565;display: block;margin:10px 0;text-align: center;}
+	.loginfunc .box05 p{font-size: 26px;font-family: "微软雅黑";text-align: center;margin-top: 10px;color: #a1a1a1;}
+	.loginfunc .b_box05{display: flex;flex-direction: row;justify-content: space-around;margin: 70px 0 70px 0;}
+
+}
